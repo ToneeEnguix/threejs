@@ -85,7 +85,7 @@ window.addEventListener('mousemove', (e) => {
   // if (mouseDown) {
   rgb = [
     Math.round((e.pageX / sizes.width) * 255),
-    Math.round((e.pageX / sizes.height) * 255),
+    Math.round((e.pageY / sizes.height) * 255),
     150,
   ]
   // let's animate
